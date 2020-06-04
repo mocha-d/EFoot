@@ -1,3 +1,4 @@
+// しししししし
 package com.ssd.efoot.domain;
 
 import java.io.Serializable;
