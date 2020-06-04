@@ -16,7 +16,9 @@ public class AccountForm implements Serializable {
 	private boolean newAccount;
 
 	private String repeatedPassword;
-
+	private String yeji;
+	
+	
 	public AccountForm(Account account) {
 		this.account = account;
 		this.newAccount = false;
