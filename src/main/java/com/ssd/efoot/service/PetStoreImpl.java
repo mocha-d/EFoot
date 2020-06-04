@@ -1,19 +1,20 @@
-package com.example.jpetstore.service;
+package com.ssd.efoot.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.example.jpetstore.dao.AccountDao;
-import com.example.jpetstore.dao.CategoryDao;
-import com.example.jpetstore.dao.ItemDao;
-import com.example.jpetstore.dao.OrderDao;
-import com.example.jpetstore.dao.ProductDao;
-import com.example.jpetstore.domain.Account;
-import com.example.jpetstore.domain.Category;
-import com.example.jpetstore.domain.Item;
-import com.example.jpetstore.domain.Order;
-import com.example.jpetstore.domain.Product;
+
+import com.ssd.efoot.dao.AccountDao;
+import com.ssd.efoot.dao.CategoryDao;
+import com.ssd.efoot.dao.ItemDao;
+import com.ssd.efoot.dao.OrderDao;
+import com.ssd.efoot.dao.ProductDao;
+import com.ssd.efoot.domain.Account;
+import com.ssd.efoot.domain.Category;
+import com.ssd.efoot.domain.Item;
+import com.ssd.efoot.domain.Order;
+import com.ssd.efoot.domain.Product;
 
 /**
  * JPetStore primary business object.

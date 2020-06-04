@@ -1,7 +1,8 @@
-package com.example.jpetstore.dao.mybatis;
+package com.ssd.efoot.dao.mybatis;
 
 import org.springframework.dao.DataAccessException;
-import com.example.jpetstore.domain.Sequence;
+
+import com.ssd.efoot.domain.Sequence;
 
 public class OracleSequenceDao extends MybatisSequenceDao {
 

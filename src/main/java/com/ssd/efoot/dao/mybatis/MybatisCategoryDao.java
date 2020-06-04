@@ -1,12 +1,13 @@
-package com.example.jpetstore.dao.mybatis;
+package com.ssd.efoot.dao.mybatis;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
-import com.example.jpetstore.dao.CategoryDao;
-import com.example.jpetstore.dao.mybatis.mapper.CategoryMapper;
-import com.example.jpetstore.domain.Category;
+
+import com.ssd.efoot.dao.CategoryDao;
+import com.ssd.efoot.dao.mybatis.mapper.CategoryMapper;
+import com.ssd.efoot.domain.Category;
 
 @Repository
 public class MybatisCategoryDao implements CategoryDao {

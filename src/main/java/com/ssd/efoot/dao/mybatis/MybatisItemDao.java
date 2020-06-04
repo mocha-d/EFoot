@@ -1,4 +1,4 @@
-package com.example.jpetstore.dao.mybatis;
+package com.ssd.efoot.dao.mybatis;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,11 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
 
-import com.example.jpetstore.dao.ItemDao;
-import com.example.jpetstore.dao.mybatis.mapper.ItemMapper;
-import com.example.jpetstore.domain.Item;
-import com.example.jpetstore.domain.LineItem;
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.dao.ItemDao;
+import com.ssd.efoot.dao.mybatis.mapper.ItemMapper;
+import com.ssd.efoot.domain.Item;
+import com.ssd.efoot.domain.LineItem;
+import com.ssd.efoot.domain.Order;
 
 @Repository
 public class MybatisItemDao implements ItemDao {

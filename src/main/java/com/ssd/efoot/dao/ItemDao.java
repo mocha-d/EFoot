@@ -1,11 +1,11 @@
-package com.example.jpetstore.dao;
+package com.ssd.efoot.dao;
 
 import java.util.List;
 
 import org.springframework.dao.DataAccessException;
 
-import com.example.jpetstore.domain.Item;
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.domain.Item;
+import com.ssd.efoot.domain.Order;
 
 public interface ItemDao {
 

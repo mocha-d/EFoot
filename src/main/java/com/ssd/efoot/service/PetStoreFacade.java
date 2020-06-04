@@ -1,12 +1,12 @@
-package com.example.jpetstore.service;
+package com.ssd.efoot.service;
 
 import java.util.List;
 
-import com.example.jpetstore.domain.Account;
-import com.example.jpetstore.domain.Category;
-import com.example.jpetstore.domain.Item;
-import com.example.jpetstore.domain.Order;
-import com.example.jpetstore.domain.Product;
+import com.ssd.efoot.domain.Account;
+import com.ssd.efoot.domain.Category;
+import com.ssd.efoot.domain.Item;
+import com.ssd.efoot.domain.Order;
+import com.ssd.efoot.domain.Product;
 
 /**
  * JPetStore's central business interface.

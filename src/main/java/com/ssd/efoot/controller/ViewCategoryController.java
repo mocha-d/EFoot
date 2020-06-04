@@ -1,4 +1,4 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import org.springframework.beans.support.PagedListHolder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,9 +9,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
-import com.example.jpetstore.domain.Category;
-import com.example.jpetstore.domain.Product;
-import com.example.jpetstore.service.PetStoreFacade;
+
+import com.ssd.efoot.domain.Category;
+import com.ssd.efoot.domain.Product;
+import com.ssd.efoot.service.PetStoreFacade;
 
 /**
  * @author Juergen Hoeller

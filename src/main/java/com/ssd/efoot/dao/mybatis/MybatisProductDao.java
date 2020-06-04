@@ -1,4 +1,4 @@
-package com.example.jpetstore.dao.mybatis;
+package com.ssd.efoot.dao.mybatis;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
 
-import com.example.jpetstore.dao.ProductDao;
-import com.example.jpetstore.dao.mybatis.mapper.ProductMapper;
-import com.example.jpetstore.domain.Product;
+import com.ssd.efoot.dao.ProductDao;
+import com.ssd.efoot.dao.mybatis.mapper.ProductMapper;
+import com.ssd.efoot.domain.Product;
 
 @Repository
 public class MybatisProductDao implements ProductDao {

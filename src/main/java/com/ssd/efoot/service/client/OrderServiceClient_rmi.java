@@ -1,12 +1,13 @@
-package com.example.jpetstore.service.client;
+package com.ssd.efoot.service.client;
 
 import java.util.Iterator;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.util.StopWatch;
-import com.example.jpetstore.domain.LineItem;
-import com.example.jpetstore.domain.Order;
-import com.example.jpetstore.service.OrderService;
+
+import com.ssd.efoot.domain.LineItem;
+import com.ssd.efoot.domain.Order;
+import com.ssd.efoot.service.OrderService;
 
 /**
  * Demo client class for remote OrderServices, to be invoked as standalone

@@ -1,11 +1,12 @@
-package com.example.jpetstore.service;
+package com.ssd.efoot.service;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
-import com.example.jpetstore.controller.AccountForm;
-import com.example.jpetstore.domain.Account;
+
+import com.ssd.efoot.controller.AccountForm;
+import com.ssd.efoot.domain.Account;
 /**
  * @author Juergen Hoeller
  * @since 01.12.2003

@@ -14,9 +14,9 @@
  *    limitations under the License.
  */
 
-package com.example.jpetstore.dao.mybatis.mapper;
+package com.ssd.efoot.dao.mybatis.mapper;
 
-import com.example.jpetstore.domain.Sequence;
+import com.ssd.efoot.domain.Sequence;
 
 /**
  * @author Eduardo Macarron

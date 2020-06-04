@@ -1,13 +1,13 @@
-package com.example.jpetstore.dao.mybatis;
+package com.ssd.efoot.dao.mybatis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.dao.DataRetrievalFailureException;
 import org.springframework.stereotype.Repository;
 
-import com.example.jpetstore.dao.SequenceDao;
-import com.example.jpetstore.dao.mybatis.mapper.SequenceMapper;
-import com.example.jpetstore.domain.Sequence;
+import com.ssd.efoot.dao.SequenceDao;
+import com.ssd.efoot.dao.mybatis.mapper.SequenceMapper;
+import com.ssd.efoot.domain.Sequence;
 
 @Repository
 public class MybatisSequenceDao implements SequenceDao {

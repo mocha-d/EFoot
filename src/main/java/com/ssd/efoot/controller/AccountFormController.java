@@ -1,4 +1,4 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -13,10 +13,11 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.util.WebUtils;
-import com.example.jpetstore.domain.Category;
-import com.example.jpetstore.domain.Product;
-import com.example.jpetstore.service.AccountFormValidator;
-import com.example.jpetstore.service.PetStoreFacade;
+
+import com.ssd.efoot.domain.Category;
+import com.ssd.efoot.domain.Product;
+import com.ssd.efoot.service.AccountFormValidator;
+import com.ssd.efoot.service.PetStoreFacade;
 
 /**
  * @author Juergen Hoeller

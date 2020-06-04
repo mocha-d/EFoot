@@ -1,4 +1,4 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;

@@ -14,11 +14,11 @@
  *    limitations under the License.
  */
 
-package com.example.jpetstore.dao.mybatis.mapper;
+package com.ssd.efoot.dao.mybatis.mapper;
 
 import java.util.List;
 
-import com.example.jpetstore.domain.Product;
+import com.ssd.efoot.domain.Product;
 
 /**
  * @author Eduardo Macarron

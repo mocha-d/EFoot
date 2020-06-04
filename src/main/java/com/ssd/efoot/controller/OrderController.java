@@ -1,4 +1,4 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.ModelAndViewDefiningException;
 
-import com.example.jpetstore.domain.Account;
-import com.example.jpetstore.domain.Cart;
-import com.example.jpetstore.service.OrderValidator;
-import com.example.jpetstore.service.PetStoreFacade;
+import com.ssd.efoot.domain.Account;
+import com.ssd.efoot.domain.Cart;
+import com.ssd.efoot.service.OrderValidator;
+import com.ssd.efoot.service.PetStoreFacade;
 
 /**
  * @author Juergen Hoeller

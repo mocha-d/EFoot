@@ -1,10 +1,10 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import java.io.Serializable;
 import org.springframework.beans.support.PagedListHolder;
 
-import com.example.jpetstore.domain.Account;
-import com.example.jpetstore.domain.Product;
+import com.ssd.efoot.domain.Account;
+import com.ssd.efoot.domain.Product;
 
 /**
  * @author Juergen Hoeller

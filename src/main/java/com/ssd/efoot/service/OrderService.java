@@ -1,8 +1,8 @@
-package com.example.jpetstore.service;
+package com.ssd.efoot.service;
 
 import java.util.List;
 
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.domain.Order;
 
 /**
  * Separate OrderService interface, implemented by OrderServiceImpl. * 

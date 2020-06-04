@@ -1,8 +1,8 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import java.io.Serializable;
 
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.domain.Order;
 
 /**
  * @author Juergen Hoeller

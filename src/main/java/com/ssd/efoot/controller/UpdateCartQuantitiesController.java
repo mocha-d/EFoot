@@ -1,4 +1,4 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import java.util.Iterator;
 import javax.servlet.http.HttpServletRequest;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.jpetstore.domain.Cart;
-import com.example.jpetstore.domain.CartItem;
+import com.ssd.efoot.domain.Cart;
+import com.ssd.efoot.domain.CartItem;
 
 /**
  * @author Juergen Hoeller

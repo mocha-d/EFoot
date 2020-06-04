@@ -1,4 +1,4 @@
-package com.example.jpetstore.controller;
+package com.ssd.efoot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
-import com.example.jpetstore.domain.Cart;
-import com.example.jpetstore.domain.Item;
-import com.example.jpetstore.service.PetStoreFacade;
+
+import com.ssd.efoot.domain.Cart;
+import com.ssd.efoot.domain.Item;
+import com.ssd.efoot.service.PetStoreFacade;
 
 /**
  * @author Juergen Hoeller

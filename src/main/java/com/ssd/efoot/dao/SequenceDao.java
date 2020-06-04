@@ -1,4 +1,4 @@
-package com.example.jpetstore.dao;
+package com.ssd.efoot.dao;
 
 import org.springframework.dao.DataAccessException;
 

@@ -1,4 +1,4 @@
-package com.example.jpetstore.service;
+package com.ssd.efoot.service;
 
 import java.lang.reflect.Method;
 
@@ -11,8 +11,8 @@ import org.springframework.mail.MailException;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 
-import com.example.jpetstore.domain.Account;
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.domain.Account;
+import com.ssd.efoot.domain.Order;
 
 /**
  * AOP advice that sends confirmation email after order has been submitted

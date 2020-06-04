@@ -1,4 +1,4 @@
-package com.example.jpetstore.service;
+package com.ssd.efoot.service;
 
 import java.util.List;
 import javax.jws.WebMethod;
@@ -7,7 +7,7 @@ import javax.jws.WebService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.domain.Order;
 
 /**
  * @author Chang-Sup Park

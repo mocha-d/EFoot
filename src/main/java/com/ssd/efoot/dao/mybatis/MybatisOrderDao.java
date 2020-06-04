@@ -1,16 +1,16 @@
-package com.example.jpetstore.dao.mybatis;
+package com.ssd.efoot.dao.mybatis;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.jpetstore.dao.OrderDao;
-import com.example.jpetstore.dao.SequenceDao;
-import com.example.jpetstore.dao.mybatis.mapper.LineItemMapper;
-import com.example.jpetstore.dao.mybatis.mapper.OrderMapper;
-import com.example.jpetstore.domain.LineItem;
-import com.example.jpetstore.domain.Order;
+import com.ssd.efoot.dao.OrderDao;
+import com.ssd.efoot.dao.SequenceDao;
+import com.ssd.efoot.dao.mybatis.mapper.LineItemMapper;
+import com.ssd.efoot.dao.mybatis.mapper.OrderMapper;
+import com.ssd.efoot.domain.LineItem;
+import com.ssd.efoot.domain.Order;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;

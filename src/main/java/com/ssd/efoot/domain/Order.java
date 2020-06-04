@@ -1,4 +1,4 @@
-package com.example.jpetstore.domain;
+package com.ssd.efoot.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
