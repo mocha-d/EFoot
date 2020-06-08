@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="com.ssd.efoot.dao.mybatis.mapper.GroupBuyingMapper">
+  <cache />
+ 	<!-- parameterType="java.lang.String" -->
+  <select id="getGroupBuying" resultType="com.ssd.efoot.domain.GroupBuying">
+  	SELECT g.GBID, USERID, COUNT, DEADLINE, PLACE, COMMENT, TIMESTAMP, NAME
+  	FROM GROUPBUYING
+  	WHERE GBID=#{gbid}   
+  </select>
+  
+  <select id="getGroupBuying" resultType="com.ssd.efoot.domain.GroupBuying">
+  	SELECT GBID, USERID, COUNT, DEADLINE, PLACE, COMMENT, TIMESTAMP, NAME
+  	FROM GROUPBUYING
+  	WHERE GBID=#{gbid}   
+  </select>
+  
+  <select id="getGroupBuying" resultType="java.lang.String">
+    SELECT USERNAME AS VALUE FROM SIGNON
+  </select>
+  
+  
+
+  <update id="updateAccount" parameterType="Account">
+    UPDATE ACCOUNT SET
+      EMAIL = #{email},
+      FIRSTNAME = #{firstName},
+      LASTNAME = #{lastName},
+      STATUS = #{status},
+      ADDR1 = #{address1},
+      ADDR2 = #{address2,jdbcType=VARCHAR},
+      CITY = #{city},
+      STATE = #{state},
+      ZIP = #{zip},
+      COUNTRY = #{country},
+      PHONE = #{phone}
+    WHERE USERID = #{username}
+  </update>
+
+  <insert id="insertAccount" parameterType="Account">
+    INSERT INTO ACCOUNT
+      (EMAIL, FIRSTNAME, LASTNAME, STATUS, ADDR1, ADDR2, CITY, STATE, ZIP, COUNTRY, PHONE, USERID)
+    VALUES
+      (#{email}, #{firstName}, #{lastName}, #{status}, #{address1}, #{address2,jdbcType=VARCHAR}, #{city}, #{state}, #{zip}, #{country}, #{phone}, #{username})
+  </insert>
+
+  <update id="updateProfile" parameterType="Account">
+    UPDATE PROFILE SET
+      LANGPREF = #{languagePreference},
+      FAVCATEGORY = #{favouriteCategoryId}
+    WHERE USERID = #{username}
+  </update>
+
+  <insert id="insertProfile" parameterType="Account">
+    INSERT INTO PROFILE (LANGPREF, FAVCATEGORY, USERID)
+    VALUES (#{languagePreference}, #{favouriteCategoryId}, #{username})
+  </insert>
+
+  <update id="updateSignon" parameterType="Account">
+    UPDATE SIGNON SET PASSWORD = #{password}
+    WHERE USERNAME = #{username}
+  </update>
+</mapper>
