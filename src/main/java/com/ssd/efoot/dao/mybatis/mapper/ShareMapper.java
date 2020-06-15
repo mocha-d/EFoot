@@ -8,5 +8,6 @@ import com.ssd.efoot.domain.Account;
 import com.ssd.efoot.domain.GroupBuying;
 
 public interface ShareMapper {
+//Mapper 추가
 
 }
